@@ -1,0 +1,31 @@
+#wp-admin-bar-wp-logo,
+#wp-admin-bar-comments, 
+#wp-admin-bar-new-content,
+#contextual-help-link-wrap,
+#footer-thankyou,
+.show-admin-bar { display: none; }
+
+#wp-admin-bar-site-name { background: #B21107 !important; }
+#wp-admin-bar-site-name a {  }
+
+.table-form { padding: 0; margin: 0; }
+.table-form .header { background: #CCC; }
+.table-form td { padding: 0 10px; }
+
+.table-meta-box { 
+	width: 100%; 
+}
+.table-meta-box th, 
+.table-meta-box td { 
+	text-align: left;
+	padding: 5px; 
+}
+.table-meta-box .inputText {	
+	width: 100%;
+}
+
+
+.sdbx-meta-body h3 { font-size: 13px !important; }
+
+
+#postexcerpt .inside p { display: none; }

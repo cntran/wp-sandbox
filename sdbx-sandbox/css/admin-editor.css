@@ -1,0 +1,3 @@
+/* Media upload lightbox cleanup */
+.media-item .sdbx_document,
+.media-item .sdbx_caption_link { display: none; }

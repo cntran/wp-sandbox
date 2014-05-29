@@ -1,0 +1,58 @@
+/* THEME SELECTOR */
+
+#sdbx-theme-menu-options-wrapper {
+	display: none;
+	text-align: center;
+	width: 125px;
+}
+#sdbx-theme-menu-options-wrapper a { color: #474747 !important; }
+#sdbx-theme-menu-toolbar {
+	cursor: pointer;
+	padding: 5px;
+	padding-bottom: 2px;
+}
+#sdbx-theme-menu { 
+	position: absolute; 
+	top: 15px; 
+	left: 15px; 
+	background: #FFF;
+	border: 3px double #CCC;
+	color: #333 !important;
+	z-index: 999;  
+}
+#sdbx-theme-menu-options-wrapper {
+	padding: 10px;
+}
+.sdbx-theme-menu-options {
+	list-style: none;  
+	margin: 0;
+	padding: 0;
+}
+.sdbx-theme-menu-options li a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#sdbx-theme-menu-header-image-options li a:hover {
+	text-decoration: underline;
+}
+#sdbx-theme-menu-color-options li a div {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.theme-option-box {
+	border: 2px solid #FFF;
+}
+.theme-option-box:hover {
+	border: 2px solid #333;
+}
+.theme-option-box-2 {
+	border: 2px solid #CCC;
+}
+.theme-option-box-2:hover {
+	border: 2px solid #333;
+}

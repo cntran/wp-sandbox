@@ -1,0 +1,19 @@
+/* Page Publish cleanup */
+#minor-publishing { }
+#minor-publishing-actions,
+.misc-pub-section label[for='post_status'],
+.misc-pub-section #post-status-display,
+.misc-pub-section .edit-post-status,
+#major-publishing-actions #delete-action,
+#misc-publishing-actions .curtime { display: none; }
+#publishing-action { float: none; text-align: center; }
+#submitdiv .handlediv,
+#submitdiv .hndle { display: none; }
+
+/* Media upload lightbox cleanup */
+#media-upload-header #tab-type_url,
+#media-upload-header #tab-library,
+.media-item .image_alt,
+.media-item .post_content,
+.media-item .url,
+.media-item .align  { display: none; }
